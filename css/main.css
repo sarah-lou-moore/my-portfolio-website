@@ -1,0 +1,301 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#parent-div {
+  width: 1440px;
+  margin: auto;
+}
+
+#parent-div img {
+  position: absolute;
+  margin: 100px 400px;
+}
+
+#child-div-left {
+  width: 720px;
+  height: 800px;
+  float: left;
+  background-color: #ff6666;
+}
+
+
+#child-div-right {
+  width: 720px;
+  height: 800px;
+  float: left;
+  background-color: #CEC6C4;
+}
+
+#portfolio {
+  height: 1450px;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+}
+
+#about {
+  height: 750px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#contact {
+  height: 600px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/***** GRID ******/
+
+.full-width {
+  width: 1440px;
+  float: none;
+}
+
+.third-width {
+    width: 480px;
+    float: left;
+}
+
+.half-width {
+    width: 720px;
+    float: left;
+}
+
+
+/****** HEADER ******/
+
+#parent-div {
+  background-position: center;
+  margin-bottom: 0px;
+  height: 800px;
+}
+
+
+#parent-div h1 {
+  font-family: 'Satisfy', cursive;
+  text-align: left;
+  font-size: 40px;
+  color: white;
+  padding: 25px 0px 0px 120px;
+  margin: 0px;
+}
+
+nav {
+    float: right;
+    padding: 25px 70px 75px 0px;
+    clear: both;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 25px 10px 20px 10px;
+    margin-right: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#parent-div h2 {
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  line-height: 75px;
+  padding: 90px 20px 0px 10px;
+  clear: both;
+}
+
+
+/***** PORTFOLIO *****/
+
+
+#portfolio {
+  width: 1440px;
+  height: 1400px;
+  line-height: 23px;
+}
+
+#portfolio h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 34px;
+  color: black;
+  margin: 68px 0px 100px 0px;
+  clear:both;
+}
+
+#portfolio h3 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+#portfolio h4 {
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+#portfolio p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 550px;
+  margin-left: 70px;
+}
+
+#portfolio img {
+  margin-bottom: 55px;
+  margin-left: 100px;
+  border: 1px solid #cccccc;
+}
+
+.jubilee-austen {
+  height: 350px;
+
+  margin-bottom: 55px;
+  margin-top: 0px;
+}
+
+.rogue-pickings {
+  height: 350px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.holstee-manifesto {
+  height: 350px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.a {
+  cursor: pointer;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  width: 1440px;
+  margin: auto;
+  background-color: #CEC6C4;
+  text-align: left;
+  color: black;
+}
+
+#contact h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  padding-top: 50px;
+  color: black;
+  margin-top: auto;
+}
+
+.contact-form {
+  height: 400px;
+  width: 550px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+  input[type=text], textarea {
+  width: 550px; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit], button {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#contact p {
+  font-size: 20px;
+}
+
+#contact ul {
+  list-style: none;
+   padding: 0px;
+   text-align: center;
+}
+
+#contact ul img {
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #ff6666;
+  clear: both;
+  width: 1440px;
+  margin: auto;
+}
+
+#about h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+#about img {
+  margin: 25px 50px 50px 120px;
+}
+
+#about h3 {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#about p {
+  padding-left: 50px;
+  padding-right: 120px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#footer {
+  width: 1440px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+}
